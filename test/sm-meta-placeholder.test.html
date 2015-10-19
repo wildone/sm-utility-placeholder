@@ -33,6 +33,36 @@
         it('is okay', function() {
           expect(component).to.be.ok;
         });
+
+        describe('show behavior', function() {
+          it('should hide the element when false', function() {
+            var styles;
+
+            component.show = false;
+
+            styles = window.getComputedStyle(component);
+            expect(styles.display).to.equal('none');
+          });
+
+          it('should show the element when true', function() {
+            var styles;
+
+            component.show = true;
+
+            styles = window.getComputedStyle(component);
+            expect(styles.display).to.equal('block');
+          });
+
+          it('should be inline when specified', function() {
+            var styles;
+
+            component.show = true;
+            component.shouldInline = true;
+            styles = window.getComputedStyle(component);
+
+            expect(styles.display).to.equal('inline');
+          });
+        });
       });
     </script>
   </body>

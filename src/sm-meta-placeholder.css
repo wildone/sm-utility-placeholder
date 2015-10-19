@@ -1,0 +1,11 @@
+:root {
+  --display: block;
+}
+
+:host {
+  display: none;
+}
+
+:host([show]) {
+  display: var(--display);
+}
