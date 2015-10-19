@@ -1,0 +1,36 @@
+{
+  "name": "sm-meta-placeholder",
+  "description": "Simpla meta element for showing placeholder content",
+  "version": "0.0.0",
+  "authors": [
+    "Simpla <admin@simpla.io>"
+  ],
+  "license": "MIT",
+  "main": "sm-meta-placeholder.html",
+  "keywords": [
+    "simpla",
+    "web component",
+    "polymer",
+    "placeholder"
+  ],
+  "ignore": [
+    "*",
+    "!src/**/*",
+    "!sm-meta-placeholder.html",
+    "!LICENSE"
+  ],
+  "dependencies": {
+    "webcomponentsjs": "^0.7.14",
+    "polymer": "^1.1.4",
+    "simpla": "git@github.com:simplaio/simpla.git",
+    "sm-css": "git@github.com:simplaio/sm-css.git"
+  },
+  "devDependencies": {
+    "web-component-tester": "^3.3.22",
+    "test-fixture": "PolymerElements/test-fixture#~1.0.0"
+  },
+  "componentImports": [
+    "polymer/polymer.html",
+    "sm-css/sm-css.html"
+  ]
+}
