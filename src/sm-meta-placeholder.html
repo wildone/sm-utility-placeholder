@@ -1,8 +1,22 @@
 <dom-module id="sm-meta-placeholder">
   <template>
-    <style include="sm-css"></style>
-    <link rel="stylesheet" href="./sm-meta-placeholder.css" />
+
+    <style include="sm-css">
+      :root {
+        --display: block;
+      }
+
+      :host {
+        display: none;
+      }
+
+      :host([show]) {
+        display: var(--display);
+      }
+    </style>
+
     <content></content>
+
   </template>
   <script src="./sm-meta-placeholder.js"></script>
 </dom-module>
