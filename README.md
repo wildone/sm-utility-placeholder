@@ -1,6 +1,6 @@
-# meta placeholder
+# Utility placeholder
 
-Simpla meta element for showing placeholder content
+Simpla utility element for showing placeholder content
 
 --
 

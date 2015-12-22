@@ -1,6 +1,6 @@
-class SmMetaPlaceholder {
+class SmUtilityPlaceholder {
   beforeRegister() {
-    this.is = 'sm-meta-placeholder';
+    this.is = 'sm-utility-placeholder';
 
     this.properties = {
       show: {
@@ -22,4 +22,4 @@ class SmMetaPlaceholder {
   }
 }
 
-Polymer(SmMetaPlaceholder);
+Polymer(SmUtilityPlaceholder);

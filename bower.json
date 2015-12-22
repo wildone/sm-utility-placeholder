@@ -1,12 +1,12 @@
 {
-  "name": "sm-meta-placeholder",
-  "description": "Simpla meta element for showing placeholder content",
+  "name": "sm-utility-placeholder",
+  "description": "Simpla utility element for showing placeholder content",
   "version": "0.0.0",
   "authors": [
     "Simpla <admin@simpla.io>"
   ],
   "license": "MIT",
-  "main": "sm-meta-placeholder.html",
+  "main": "sm-utility-placeholder.html",
   "keywords": [
     "simpla",
     "web component",
@@ -16,7 +16,7 @@
   "ignore": [
     "*",
     "!src/**/*",
-    "!sm-meta-placeholder.html",
+    "!sm-utility-placeholder.html",
     "!LICENSE"
   ],
   "dependencies": {

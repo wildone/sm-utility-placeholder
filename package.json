@@ -1,8 +1,8 @@
 {
-  "name": "sm-meta-placeholder",
+  "name": "sm-utility-placeholder",
   "version": "0.1.0",
-  "description": "Simpla meta element for showing placeholder content",
-  "main": "sm-meta-placeholder.html",
+  "description": "Simpla utility element for showing placeholder content",
+  "main": "sm-utility-placeholder.html",
   "scripts": {
     "test": "gulp test:local"
   },
@@ -16,10 +16,10 @@
   ],
   "repository": {
     "type" : "git",
-    "url" : "https://github.com/simplaio/sm-meta-placeholder.git"
+    "url" : "https://github.com/simplaio/sm-utility-placeholder.git"
   },
   "bugs": {
-    "url" : "https://github.com/simplaio/sm-meta-placeholder/issues"
+    "url" : "https://github.com/simplaio/sm-utility-placeholder/issues"
   },
   "devDependencies": {
     "autoprefixer": "^6.0.0",

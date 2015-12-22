@@ -1,5 +1,5 @@
 (function() {
-  var NAME = 'sm-meta-placeholder';
+  var NAME = 'sm-utility-placeholder';
 
   window.fixtures = window.fixtures || {};
   window.fixtures[NAME] = {
