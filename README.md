@@ -1,4 +1,4 @@
-# Utility placeholder
+# Utility Placeholder
 ![][bower-badge] [![][travis-badge]][travis-url] [![][bowerdeps-badge]][bowerdeps-url] [![][npmdevdeps-badge]][npmdevdeps-url]
 
 Simpla utility element for showing placeholder content
