@@ -18,4 +18,4 @@ MIT © [Simpla](admin@simpla.io)
 [npmdeps-badge]: https://img.shields.io/david/simplaio/sm-utility-placeholder.svg
 [npmdeps-url]: https://david-dm.org/simplaio/sm-utility-placeholder
 [npmdevdeps-badge]: https://img.shields.io/david/dev/simplaio/sm-utility-placeholder.svg?theme=shields.io
-[npmdevdeps-url]: https://david-dm.org/dev/simplaio/sm-utility-placeholder#info=devDependencies
+[npmdevdeps-url]: https://david-dm.org/simplaio/sm-utility-placeholder#info=devDependencies
