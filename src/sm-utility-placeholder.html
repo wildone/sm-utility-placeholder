@@ -21,6 +21,8 @@
 
   </template>
   <script>
+    import placeholder from './behaviors/placeholder';
+
     class SmUtilityPlaceholder {
       beforeRegister() {
         this.is = 'sm-utility-placeholder';
@@ -44,6 +46,11 @@
         this.updateStyles();
       }
     }
+
+    // Set placeholder on simpla.behaviors
+    window.simpla = window.simpla || {};
+    window.simpla.behaviors = window.simpla.behaviors || {};
+    window.simpla.behaviors.placeholder = placeholder;
 
     Polymer(SmUtilityPlaceholder);
   </script>
