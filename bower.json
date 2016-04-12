@@ -21,8 +21,7 @@
   ],
   "dependencies": {
     "webcomponentsjs": "^0.7.14",
-    "polymer": "^1.1.4",
-    "simpla-core": "https://github.com/simplaio/simpla-core.git"
+    "polymer": "^1.1.4"
   },
   "devDependencies": {
     "web-component-tester": "^3.3.22",
