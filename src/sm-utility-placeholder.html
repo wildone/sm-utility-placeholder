@@ -1,5 +1,6 @@
 <link rel="import" href="../polymer/polymer.html">
-<link rel="import" href="../simpla-core/simpla-core.html">
+<link rel="import" href="../object-assign/object-assign.html">
+<link rel="import" href="../sm-ui-core/sm-ui-core.html">
 
 <dom-module id="sm-utility-placeholder">
   <template>
@@ -22,6 +23,8 @@
 
   </template>
   <script>
+    import placeholder from './behaviors/placeholder';
+
     class SmUtilityPlaceholder {
       beforeRegister() {
         this.is = 'sm-utility-placeholder';
@@ -45,6 +48,11 @@
         this.updateStyles();
       }
     }
+
+    // Set placeholder on simpla.behaviors
+    window.simpla = window.simpla || {};
+    window.simpla.behaviors = window.simpla.behaviors || {};
+    window.simpla.behaviors.placeholder = placeholder;
 
     Polymer(SmUtilityPlaceholder);
   </script>
