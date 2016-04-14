@@ -1,6 +1,6 @@
 {
   "name": "sm-utility-placeholder",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Simpla utility element for showing placeholder content",
   "main": "sm-utility-placeholder.html",
   "scripts": {
