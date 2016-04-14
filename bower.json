@@ -23,7 +23,7 @@
     "webcomponentsjs": "^0.7.14",
     "polymer": "^1.1.4",
     "object-assign": "simplaio/object-assign",
-    "sm-ui-core": "https://github.com/SimplaElements/sm-ui-core.git"
+    "sm-ui-core": "SimplaElements/sm-ui-core#^0.1.0"
   },
   "devDependencies": {
     "web-component-tester": "^3.3.22",

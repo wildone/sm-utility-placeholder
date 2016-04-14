@@ -1,6 +1,6 @@
 {
   "name": "sm-utility-placeholder",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "description": "Simpla utility element for showing placeholder content",
   "main": "sm-utility-placeholder.html",
   "scripts": {
@@ -16,10 +16,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/simplaio/sm-utility-placeholder.git"
+    "url": "https://github.com/SimplaElements/sm-utility-placeholder.git"
   },
   "bugs": {
-    "url": "https://github.com/simplaio/sm-utility-placeholder/issues"
+    "url": "https://github.com/SimplaElements/sm-utility-placeholder/issues"
   },
   "devDependencies": {
     "autoprefixer": "^6.0.0",
